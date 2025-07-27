@@ -79,12 +79,6 @@ The application exports five separate texture maps:
 - **Ambient Occlusion**: Morphological operations to detect cavities
 - **Metallic**: Inverse-based metallic surface detection
 
-### Performance
-- Real-time processing at 30 FPS for 3D preview
-- Optimized numpy operations for fast map generation
-- Efficient memory usage with 256x256 working resolution
-- Scalable preview system (400x400 default)
-
 ## Dependencies
 - **dearpygui** (>=1.9.0) - Modern GUI framework
 - **numpy** (>=1.21.0) - Numerical computing
